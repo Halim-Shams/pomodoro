@@ -25,7 +25,7 @@ function App() {
 				{isHide ? (
 					<button
 						onClick={undoHandler}
-						className='absolute top-5 left-4 text-3xl border border-yellow-200 hover:shadow-gray-400 hover:shadow-lg shadow-yellow-400 shadow-lg rounded-full py-1 px-1 bg-slate-100 dark:shadow-none dark:hover:shadow-lg dark:hover:shadow-gray-500 dark:bg-gray-100 text-gray-900 dark:text-gray-900'>
+						className='absolute border border-gray-200 ring-2 ring-yellow-300 ring-offset-2 ring-offset-gray-100 top-5 left-4 text-3xl hover:shadow-gray-400 hover:shadow-lg rounded-full py-1 px-1 bg-white dark:shadow-none dark:hover:shadow-lg dark:hover:shadow-gray-500 dark:bg-gray-700 dark:text-gray-100 dark:border-none dark:ring-1 dark:ring-yellow-300 dark:ring-offset-gray-900 dark:ring-offset-2 text-gray-900'>
 						<AiOutlineArrowLeft />
 					</button>
 				) : null}
